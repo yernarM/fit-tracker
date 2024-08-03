@@ -1,0 +1,40 @@
+.record {
+	font-size: 16px;
+	padding-left: 20px;
+	border-radius: 50px;
+	background-color: bisque;
+	border: 1px solid rgb(234, 89, 224);
+	width: 400px;
+	height: 35px;
+}
+
+.table {
+	margin-top: 20px;
+	padding: 10px;
+	min-width: 500px;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px 12px;
+}
+
+.table th,
+.table td:not(:last-child) {
+	border: 1px solid black;
+}
+
+td:last-child {
+	width: 70px;
+}
+
+.main {
+	width: max-content;
+	margin: 0 auto;
+}
+
+.add {
+	width: 80px;
+	margin: 20px;
+	padding: 5px;
+}
